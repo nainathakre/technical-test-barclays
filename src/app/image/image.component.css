@@ -1,0 +1,58 @@
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.card-title {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 300;
+
+}
+
+.card-text {
+  text-align: left;
+
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+.box .text1 {
+  position: absolute;
+  top: 40%;
+  left: 60px;
+  width: 400px;
+  border-left: 3px solid rgb(22, 145, 202);;
+  padding: 0 0 0 15px;
+}
+
+.box .text2 {
+  position: absolute;
+  top: 90%;
+  width: 400px;
+  padding: 0;
+  left: 60px;
+}
+
+.b-title {
+  margin: 0;
+  font-weight: 300;
+}
+.b-body{
+  font-size: 10px;
+  color: rgb(22, 145, 202);
+}
+.card-text{
+  color: rgb(22, 145, 202);
+}
